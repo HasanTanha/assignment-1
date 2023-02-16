@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 9%;
+  margin-top: 37px;
+}
+
+li {
+  margin: 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 16px;
+}
+
+/* Top Section */
+
+.top-segment {
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-size: 45px;
+}
+
+/* .half-width {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+} */
+
+.highlighted-color {
+  background: linear-gradient(
+    225deg,
+    #16dee1 0%,
+    #fc00ff 33%,
+    #e43c3c 66%,
+    #ae4c4c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* section {
+  display: flex;
+}
+.half-width img {
+  width: 80%;
+  margin: 2%;
+} */
+
+section {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+
+section p {
+  margin-bottom: 50px;
+}
+
+.link-btn {
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.half-width i {
+  margin-right: 7px;
+}
+
+#mid-sec {
+  margin-top: 50px;
+}
+
+/* Work Projects Section */
+
+.project-h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-size: 35px;
+  padding-top: 5%;
+}
+
+.thrice-width {
+  width: 374px;
+  height: 370px;
+  float: left;
+  margin-right: 1%;
+  padding: 1.5%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 30px lightgray;
+}
+.project-works {
+  background-color: #f9f7f7;
+  padding-bottom: 10%;
+}
+.work-block {
+  margin-left: 7%;
+}
+
+.thrice-width img {
+  height: 65%;
+  width: 100%;
+}
