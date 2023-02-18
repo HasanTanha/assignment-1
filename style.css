@@ -82,13 +82,33 @@ section p {
   margin-bottom: 50px;
 }
 
-.link-btn {
-  background-color: orangered;
-  border-radius: 5px;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
+.btn {
+  background: #10b5c7;
+  background-image: -webkit-linear-gradient(top, #10b5c7, #1d7d48);
+  background-image: -moz-linear-gradient(top, #10b5c7, #1d7d48);
+  background-image: -ms-linear-gradient(top, #10b5c7, #1d7d48);
+  background-image: -o-linear-gradient(top, #10b5c7, #1d7d48);
+  background-image: linear-gradient(to bottom, #10b5c7, #1d7d48);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #0c14f5;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
+
+.btn:hover {
+  background: #1285e3;
+  background-image: -webkit-linear-gradient(top, #1285e3, #d9270b);
+  background-image: -moz-linear-gradient(top, #1285e3, #d9270b);
+  background-image: -ms-linear-gradient(top, #1285e3, #d9270b);
+  background-image: -o-linear-gradient(top, #1285e3, #d9270b);
+  background-image: linear-gradient(to bottom, #1285e3, #d9270b);
+  text-decoration: none;
+}
+
 .half-width i {
   margin-right: 7px;
 }
@@ -128,4 +148,74 @@ section p {
 .thrice-width img {
   height: 65%;
   width: 100%;
+}
+
+/* Inquiry Section */
+
+.inquiry-sec {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.inquiry-sec h1 {
+  background-image: url(images/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.chat-btn {
+  margin-left: 240px;
+  font-weight: 500;
+  background: #d9349f;
+  background-image: -webkit-linear-gradient(top, #d9349f, #2980b9);
+  background-image: -moz-linear-gradient(top, #d9349f, #2980b9);
+  background-image: -ms-linear-gradient(top, #d9349f, #2980b9);
+  background-image: -o-linear-gradient(top, #d9349f, #2980b9);
+  background-image: linear-gradient(to bottom, #d9349f, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #c771c7;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.chat-btn:hover {
+  background: #1293e3;
+  background-image: -webkit-linear-gradient(top, #1293e3, #136094);
+  background-image: -moz-linear-gradient(top, #1293e3, #136094);
+  background-image: -ms-linear-gradient(top, #1293e3, #136094);
+  background-image: -o-linear-gradient(top, #1293e3, #136094);
+  background-image: linear-gradient(to bottom, #1293e3, #136094);
+  text-decoration: none;
+}
+
+.contact-address {
+  margin-left: 45%;
+}
+.contact-address h4 {
+  font-family: "Bebas Neue", cursive;
+  color: #696871;
+  margin-top: 23%;
+}
+.contact-img img {
+  width: 9%;
+  margin: 0 1%;
+}
+.contact-img {
+  margin-left: -10%;
+  margin-top: -6px;
+}
+.contact-address h3 {
+  color: #363958;
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: -25%;
+  margin-top: 0;
 }
